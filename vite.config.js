@@ -14,5 +14,8 @@ export default defineConfig({
       manifest,
     }),
   ],
-  base: './'
+  base: './',
+  build: {
+    outDir: './docs'
+  }
 });
